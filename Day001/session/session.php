@@ -8,6 +8,6 @@
    	 $_SESSION['psw']=$psw;
      header("location:main.php?message=login sucessfully");
    }else{
-     header("location:index.html?message=not sucessfully ");
+     header("location:index.php?message=not sucessfully ");
    }
 ?> 
