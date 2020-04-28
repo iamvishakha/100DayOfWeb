@@ -6,7 +6,7 @@
   } 
   else
   {
-    header("location:index.html?message=main page not open");
+    header("location:index.php?message=main page not open");
   }
 ?>
  <button type="submit"><a href="logout.php">logout</a></button>
